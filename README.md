@@ -4,27 +4,27 @@ These are the details of  REST API to autocomplete.
 
 The entire application is ditributed in.
 
-SERVICE-REGISTRY 
+## SERVICE-REGISTRY 
     Port: 8761
     Microservice to monitor all microservices in application.
 
-CONFIG-SERVER
+## CONFIG-SERVER
     Port: 9296
     Microservice to distribute shared configuration resources among other nicroservices
 
-API-GATEWAY	
+## API-GATEWAY	
     Port: 9090
     API gateway to external users.
 
-AUTOCOMPLETE-SERVICE
+## AUTOCOMPLETE-SERVICE
     Port: 9001
     Main service providing the API.
 
-CACHING-SERVICE	
+## CACHING-SERVICE	
     Port: 9002
     Microservice aimed at providing caching for popularly used words. Not implemented in this release.
 
-HYSTRIX-DASHBOARD
+## HYSTRIX-DASHBOARD
     Port: 9495
     Dashboard Microservice to monitor if the performance of main/fallback services
 
