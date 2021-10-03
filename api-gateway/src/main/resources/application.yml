@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id:  AUTOCOMPLETE-SERVICE
+          uri: lb://AUTOCOMPLETE-SERVICE
+          predicates:
+            - Path=/autocomplete/**
+#TODO : Add a fallback service in case of autocomplete micro service goes down
+#TODO: add a hystrix dashboard as well to monitor the state of services .

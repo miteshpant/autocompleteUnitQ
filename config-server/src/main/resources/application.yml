@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/miteshpant/unitq-autocomplete-config
+          clone-on-start: true
+          default-label: main
