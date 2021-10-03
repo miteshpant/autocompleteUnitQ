@@ -41,6 +41,13 @@ The entire application is ditributed in.
 ## Run the tests
 
     TODO
+##TODO
+    1: Caching Service.
+    2: Zipkin and Sleuth for log tracing.
+    3: Hystrix dashboard.
+    4: Correctness Algorithm for possible speling mistakes , we can use Levenshtein distance but that is not very efficint when we are dealing with large dataset.
+    5: Test cases.
+
 
 # REST API
 
