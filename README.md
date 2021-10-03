@@ -1,6 +1,6 @@
 # REST API Autocomplete application
 
-This is a details of  REST API to autocomplete.
+These are the details of  REST API to autocomplete.
 
 The entire application is ditributed in.
 
