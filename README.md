@@ -48,6 +48,7 @@ The entire application is ditributed in.
     4: Correctness Algorithm for possible speling mistakes , we can use Levenshtein distance but that is not very efficint when we are dealing with large dataset.
     5: Test cases.
     6: Limit the number of entries in result set.
+    7: Exception handling
 
 
 # REST API
